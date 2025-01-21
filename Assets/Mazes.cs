@@ -26,7 +26,15 @@ using System.Linq;
 
         public static readonly string[][] possibleMazes =
         {
-            new string[36] { "UL", "UD", "UR", "UL", "UD", "URD", "RL", "UL", "RD", "DL", "UD", "UR", "RL", "DL", "URD", "UDL", "UD", "R", "L", "UDL", "UD", "UD", "UD", "R", "L", "UD", "UR", "UL", "URD", "RL", "DL", "URD", "DL", "RD", "R", "RD" },
+            new string[36]
+            {
+                "UL", "UD", "UR", "UL", "UD", "URD",
+                "RL", "UL", "RD", "DL", "UD", "UR",
+                "RL", "DL", "URD", "UDL", "UD", "R",
+                "L", "UD", "URD", "UDL", "UD", "R",
+                "L", "UD", "UR", "UL", "UD", "R",
+                "DL", "URD", "DL", "RD", "UDL", "RD"
+            },
             new string[36] { "UL", "UD", "UD", "UR", "UL", "UR", "DL", "U", "UR", "RL", "RL", "RL", "URL", "RL", "RL", "RDL", "RDL", "RL", "RL", "RL", "L", "URD", "UL", "RD", "L", "RD", "DL", "UD", "DR", "URL", "DL", "UD", "UD", "UD", "UD", "RD" },
             new string[36] { "UL", "UD", "UR", "UL", "UD", "UR", "L", "URD", "DL", "R", "UDL", "R", "DL", "UD", "URD", "RL", "UL", "RD", "URL", "UD", "UD", "RD", "DL", "UR", "RL", "UDL", "U", "UD", "URD", "RL", "DL", "UD", "D", "UD", "UD", "RD" },
             new string[36] { "UDL", "UD", "U", "UR", "UL", "UR", "UDL", "UD", "RD", "DL", "R", "RL", "UL", "U", "UD", "UD", "", "R", "RL", "L", "U", "UD", "RD", "RL", "RL", "RL", "L", "UD", "URD", "RL", "RDL", "RDL", "RDL", "UDL", "UD", "RD" },
